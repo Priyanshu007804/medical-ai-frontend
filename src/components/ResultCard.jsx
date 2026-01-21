@@ -1,5 +1,5 @@
 import { AlertCircle, ShieldCheck, CheckCircle2 } from "lucide-react";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "./ui/card";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "./ui/Card";
 
 export function ResultCard({ result }) {
   if (!result) return null;
