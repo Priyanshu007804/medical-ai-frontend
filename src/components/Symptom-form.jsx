@@ -1,5 +1,5 @@
 import { Stethoscope, Loader2 } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "./ui/Button";
 
 export function SymptomForm({ onSubmit, isLoading, symptoms, setSymptoms }) {
   const handleSubmit = (e) => {
