@@ -1,44 +1,9 @@
 import { useState } from "react";
 import { Activity, Brain, Clock, Shield } from "lucide-react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./components/ui/Card";
 import { SymptomForm } from "./components/Symptom-form";
 import { ResultCard } from "./components/ResultCard";
 
-// const mockDiseaseDatabase = {
-//   fever: {
-//     disease: "Common Flu (Influenza)",
-//     description: "Influenza is a viral infection that attacks your respiratory system. It's commonly called the flu and is different from stomach flu viruses that cause diarrhea and vomiting.",
-//     precautions: [
-//       "Get plenty of rest and sleep",
-//       "Stay hydrated with water, juice, and warm soups",
-//       "Take over-the-counter fever reducers as directed",
-//       "Stay home to prevent spreading the infection",
-//     ],
-//     severity: "medium",
-//   },
-//   headache: {
-//     disease: "Tension Headache",
-//     description: "A tension headache is generally a diffuse, mild to moderate pain that's often described as feeling like a tight band around your head. It's the most common type of headache.",
-//     precautions: [
-//       "Take a break from screens and rest your eyes",
-//       "Apply a warm or cold compress to your head or neck",
-//       "Practice relaxation techniques and stress management",
-//       "Ensure you're getting adequate sleep each night",
-//     ],
-//     severity: "low",
-//   },
-//   chest: {
-//     disease: "Respiratory Infection",
-//     description: "A respiratory infection affects the lungs and airways, causing symptoms like coughing, chest discomfort, and difficulty breathing. It can be caused by viruses or bacteria.",
-//     precautions: [
-//       "Seek medical attention if breathing becomes difficult",
-//       "Use a humidifier to ease breathing",
-//       "Avoid smoking and secondhand smoke exposure",
-//       "Take prescribed medications as directed by your doctor",
-//     ],
-//     severity: "high",
-//   },
-// };
 
 const features = [
   { icon: Brain, label: "AI-Powered Analysis" },
